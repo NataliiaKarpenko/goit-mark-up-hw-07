@@ -1,0 +1,29 @@
+.footer-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--dark-grey-bgc);
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-contacts-box {
+  flex-grow: 1;
+  margin-right: 70px;
+}
+
+.footer-networks-box {
+  margin-right: 93px;
+}
+
+.footer-networks-text {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-bgc);
+}

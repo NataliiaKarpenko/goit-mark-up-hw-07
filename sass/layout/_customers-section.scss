@@ -1,0 +1,28 @@
+.customers-logo-item {
+  width: 170px;
+  height: 92px;
+}
+
+.customers-logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  color: var(--icon-light-grey);
+  border: 1px solid var(--icon-light-grey);
+  border-radius: 4px;
+
+  transition: color var(--transition-dur-func), border-color var(--transition-dur-func);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+}
+
+.customers-logo {
+  fill: currentColor;
+}
