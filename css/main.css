@@ -24,6 +24,12 @@
   overflow: hidden;
 }
 
+.modal-checkbox-wrapper, .modal-btn, .customers-logo-link, .services-text, .benefits-icon-box, .networks-link, .submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1,
 h2,
 h3,
@@ -222,9 +228,6 @@ input {
 }
 
 .submit-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-width: 200px;
   min-height: 50px;
   font-weight: 700;
@@ -257,9 +260,6 @@ input {
 }
 
 .networks-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -372,9 +372,6 @@ input {
 
 .benefits-icon-box {
   margin-bottom: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 120px;
   background-color: var(--light-grey-bgc);
   border-radius: 4px;
@@ -408,9 +405,6 @@ input {
 .services-text {
   position: absolute;
   bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 70px;
   width: 100%;
   font-weight: 700;
@@ -461,9 +455,6 @@ input {
 }
 
 .customers-logo-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
   color: var(--icon-light-grey);
@@ -516,9 +507,6 @@ input {
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 6px;
   width: 30px;
   height: 30px;
@@ -617,9 +605,6 @@ input {
 }
 
 .modal-checkbox-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.71;
@@ -653,7 +638,7 @@ input {
   outline-color: var(--accent-color);
 }
 
-.modal-button-box {
+.submit-btn-box {
   display: flex;
   justify-content: center;
 }

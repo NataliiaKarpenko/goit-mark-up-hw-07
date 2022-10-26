@@ -4,9 +4,7 @@
 
 .benefits-icon-box {
   margin-bottom: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %centered;
   height: 120px;
 
   background-color: var(--light-grey-bgc);
@@ -16,16 +14,12 @@
 .benefits-title {
   margin-bottom: 10px;
 
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  @include font(14px, 1.14, 0.03em);
   color: var(--primary-text-color);
+  text-transform: uppercase;
 }
 
 .benefits-text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(14px, 1.71, 0.03em);
   color: var(--secondary-text-color);
 }

@@ -11,16 +11,12 @@
   position: absolute;
   bottom: 0;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %centered;
   height: 70px;
   width: 100%;
 
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(14px, 1.14, 0.03em);
   text-transform: uppercase;
 
   color: var(--white-bgc);
