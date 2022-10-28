@@ -1,5 +1,5 @@
-@mixin font($s, $h, $s) {
+@mixin font($s, $h, $sp) {
   font-size: $s;
   line-height: $h;
-  letter-spacing: $s;
+  letter-spacing: $sp;
 } ;

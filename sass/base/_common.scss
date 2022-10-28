@@ -12,13 +12,13 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .section-list {
   display: flex;
   column-gap: 30px;
-}
-
-.link {
-  text-decoration: none;
 }
 
 body {

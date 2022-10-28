@@ -1,18 +1,17 @@
-.footer-form {
+.subscription-form {
   display: flex;
   align-items: flex-end;
   column-gap: 12px;
-
   width: 570px;
 }
 
-.footer-input-wrapper {
+.subscription__wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.footer-input-label {
+.subscription__label {
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -21,7 +20,7 @@
   color: var(--white-bgc);
 }
 
-.footer-input {
+.subscription__input {
   display: flex;
   align-items: center;
   height: 50px;
@@ -49,8 +48,4 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
   }
-}
-
-.footer-btn-icon {
-  margin-left: 10px;
 }

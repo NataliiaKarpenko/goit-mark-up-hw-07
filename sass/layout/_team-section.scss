@@ -1,8 +1,8 @@
-.team-section {
+.team {
   background-color: var(--light-grey-bgc);
 }
 
-.team-item {
+.team__item {
   text-align: center;
   flex-basis: calc((100% - 90px) / 4);
 
@@ -12,12 +12,12 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-box {
+.team__box {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-name {
+.team__name {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -25,7 +25,7 @@
   color: var(--primary-text-color);
 }
 
-.team-occupation {
+.team__occupation {
   margin-bottom: 16px;
 
   line-height: 1.18;

@@ -1,18 +1,18 @@
-.networks-list {
+.networks__list {
   display: flex;
   column-gap: 10px;
 }
 
-.team-networks-list {
+.networks__list--centered {
   justify-content: center;
 }
 
-.networks-list-item {
+.networks__item {
   width: 44px;
   height: 44px;
 }
 
-.networks-link {
+.networks__link {
   @extend %centered;
   width: 100%;
   height: 100%;
@@ -26,7 +26,7 @@
   }
 }
 
-.team-network-link {
+.networks__link--light {
   color: var(--icon-light-grey);
   background-color: var(--white-bgc);
 
@@ -34,13 +34,13 @@
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-networks-link {
+.networks__link--dark {
   color: var(--white-bgc);
   background-color: rgba(255, 255, 255, 0.1);
 
   transition: background-color var(--transition-dur-func);
 }
 
-.networks-icon {
+.networks__icon {
   fill: currentColor;
 }

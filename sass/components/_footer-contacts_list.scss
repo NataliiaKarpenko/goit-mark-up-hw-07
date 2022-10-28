@@ -1,0 +1,29 @@
+.address-box {
+  font-style: normal;
+}
+
+.footer-contacts__item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.footer-contacts__link {
+  @include font(14px, 1.71, 0.03em);
+  font-weight: 400;
+
+  transition: color var(--transition-dur-func);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.footer-contacts__link--light {
+  color: var(--white-bgc);
+}
+
+.footer-contacts__link--dark {
+  color: rgba(255, 255, 255, 0.6);
+}

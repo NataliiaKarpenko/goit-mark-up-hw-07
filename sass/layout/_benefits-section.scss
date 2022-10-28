@@ -1,8 +1,8 @@
-.benefits-item {
+.benefits__item {
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.benefits-icon-box {
+.benefits__box {
   margin-bottom: 30px;
   @extend %centered;
   height: 120px;
@@ -11,7 +11,7 @@
   border-radius: 4px;
 }
 
-.benefits-title {
+.benefits__title {
   margin-bottom: 10px;
 
   @include font(14px, 1.14, 0.03em);
@@ -19,7 +19,7 @@
   text-transform: uppercase;
 }
 
-.benefits-text {
+.benefits__description {
   @include font(14px, 1.71, 0.03em);
   color: var(--secondary-text-color);
 }

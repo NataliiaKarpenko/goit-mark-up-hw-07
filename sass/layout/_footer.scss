@@ -8,16 +8,17 @@
   display: flex;
   align-items: baseline;
 }
-.footer-contacts-box {
+
+.footer-contacts {
   flex-grow: 1;
   margin-right: 70px;
 }
 
-.footer-networks-box {
+.networks {
   margin-right: 93px;
 }
 
-.footer-networks-text {
+.networks__label {
   margin-bottom: 20px;
 
   font-weight: 700;
