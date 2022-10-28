@@ -22,7 +22,7 @@ a {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-font-family);
   background-color: var(--white-bgc);
 }
 
