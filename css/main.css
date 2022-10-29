@@ -75,6 +75,19 @@ input {
   padding-bottom: 94px;
 }
 
+.section_no-padding-top {
+  padding-top: 0;
+}
+
+.section__title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -213,15 +226,6 @@ input {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-bgc);
-}
-
-.section__title {
-  margin-bottom: 50px;
-  text-align: center;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 
 .submit-btn {
@@ -386,10 +390,6 @@ input {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-}
-
-.section_no-padding-top {
-  padding-top: 0;
 }
 
 .services {
