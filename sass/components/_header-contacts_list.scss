@@ -1,10 +1,10 @@
-.header-contacts__list {
+.contacts {
   margin-left: auto;
   display: flex;
   column-gap: 50px;
 }
 
-.header-contacts__link {
+.contacts__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -22,7 +22,7 @@
   }
 }
 
-.header-contacts__icon {
+.contacts__icon {
   margin-right: 10px;
   fill: currentColor;
 }

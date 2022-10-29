@@ -1,5 +1,10 @@
-.services {
+.section_no-padding-top {
   padding-top: 0;
+}
+
+.services {
+  display: flex;
+  column-gap: 30px;
 }
 
 .services__item {

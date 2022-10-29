@@ -123,14 +123,14 @@
   }
 }
 
-.modal__input--narrow {
+.modal__input_narrow {
   padding-top: 11px;
   padding-bottom: 11px;
   padding-left: 42px;
   height: 40px;
 }
 
-.modal__input--wide {
+.modal__input_wide {
   height: 120px;
   padding: 12px 16px;
   resize: none;
@@ -150,7 +150,7 @@
   color: var(--secondary-text-color);
 }
 
-.modal__checkbox-wrapper {
+.modal__checkbox {
   @extend %centered;
   margin-bottom: 30px;
 
@@ -170,7 +170,7 @@
   border: 2px solid var(--primary-text-color);
   border-radius: 2px;
 
-  .modal__checkbox:checked + & {
+  .modal__checkbox-input:checked + & {
     background-color: var(--accent-color);
     border: none;
 

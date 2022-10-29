@@ -1,5 +1,10 @@
-.team {
+.section_bg_grey {
   background-color: var(--light-grey-bgc);
+}
+
+.team {
+  display: flex;
+  column-gap: 30px;
 }
 
 .team__item {
@@ -17,7 +22,7 @@
   padding-bottom: 30px;
 }
 
-.team__name {
+.team__title {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -25,7 +30,7 @@
   color: var(--primary-text-color);
 }
 
-.team__occupation {
+.team__description {
   margin-bottom: 16px;
 
   line-height: 1.18;

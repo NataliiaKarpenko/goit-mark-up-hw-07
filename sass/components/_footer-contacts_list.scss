@@ -1,14 +1,14 @@
-.address-box {
+.correspondence {
   font-style: normal;
 }
 
-.footer-contacts__item {
+.correspondence__item {
   &:not(:last-child) {
     margin-bottom: 9px;
   }
 }
 
-.footer-contacts__link {
+.correspondence__link {
   @include font(14px, 1.71, 0.03em);
   font-weight: 400;
 
@@ -20,10 +20,10 @@
   }
 }
 
-.footer-contacts__link--light {
+.correspondence__link_light {
   color: var(--white-bgc);
 }
 
-.footer-contacts__link--dark {
+.correspondence__link_dark {
   color: rgba(255, 255, 255, 0.6);
 }

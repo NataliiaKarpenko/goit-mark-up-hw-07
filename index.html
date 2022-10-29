@@ -18,15 +18,15 @@
   </head>
 
   <body>
-    <header class="header-section">
-      <div class="container header-container">
+    <header class="header">
+      <div class="container header__container">
         <nav class="nav">
           <a href="./index.html" class="logo nav__logo"
-            >Web<span class="logo--dark">Studio</span></a
+            >Web<span class="logo__final-dark">Studio</span></a
           >
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="./" class="nav__link nav__link--active">Студія</a>
+              <a href="./" class="nav__link nav__link_active">Студія</a>
             </li>
             <li class="nav__item">
               <a href="./portfolio.html" class="nav__link">Портфоліо</a>
@@ -36,18 +36,18 @@
             </li>
           </ul>
         </nav>
-        <ul class="header-contacts__list">
+        <ul class="contacts">
           <li>
-            <a href="mailto:info@devstudio.com" class="header-contacts__link"
-              ><svg class="header-contacts__icon" width="16" height="12" area-label="конверт">
+            <a href="mailto:info@devstudio.com" class="contacts__link"
+              ><svg class="contacts__icon" width="16" height="12" area-label="конверт">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+380961111111" class="header-contacts__link"
-              ><svg class="header-contacts__icon" width="10" height="16" area-label="телефон">
+            <a href="tel:+380961111111" class="contacts__link"
+              ><svg class="contacts__icon" width="10" height="16" area-label="телефон">
                 <use href="./images/sprite.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -75,7 +75,7 @@
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
-          <ul class="section-list">
+          <ul class="benefits">
             <li class="benefits__item">
               <div class="benefits__box">
                 <svg width="70" height="70" area-label="антена">
@@ -125,10 +125,10 @@
       </section>
 
       <!-- Services section -->
-      <section class="section services">
+      <section class="section section_no-padding-top">
         <div class="container">
-          <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="section-list">
+          <h2 class="section__title">Чим ми займаємося</h2>
+          <ul class="services">
             <li class="services__item">
               <img src="./images/services/img-1.jpg" alt="зображення вебдодатків" width="370" />
               <p class="services__description">Десктопні додатки</p>
@@ -154,18 +154,18 @@
       </section>
 
       <!-- Team section -->
-      <section class="section team">
+      <section class="section section_bg_grey">
         <div class="container">
-          <h2 class="section-title">Наша команда</h2>
-          <ul class="section-list">
+          <h2 class="section__title">Наша команда</h2>
+          <ul class="team">
             <li class="team__item">
               <img src="./images/team/photo-1.jpg" alt="фото дизайнера продукту" width="270" />
               <div class="team__box">
-                <h3 class="team__name">Ігор Дем'яненко</h3>
-                <p lang="en" class="team__occupation">Product Designer</p>
-                <ul class="networks__list networks__list--centered">
+                <h3 class="team__title">Ігор Дем'яненко</h3>
+                <p lang="en" class="team__description">Product Designer</p>
+                <ul class="networks networks_centered">
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -178,7 +178,7 @@
                     </a>
                   </li>
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -191,7 +191,7 @@
                     </a>
                   </li>
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -204,7 +204,7 @@
                     </a>
                   </li>
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -222,11 +222,11 @@
             <li class="team__item">
               <img src="./images/team/photo-2.jpg" alt="фото фронтенд розробника" width="270" />
               <div class="team__box">
-                <h3 class="team__name">Ольга Рєпіна</h3>
-                <p lang="en" class="team__occupation">Frontend Developer</p>
-                <ul class="networks__list networks__list--centered">
+                <h3 class="team__title">Ольга Рєпіна</h3>
+                <p lang="en" class="team__description">Frontend Developer</p>
+                <ul class="networks networks_centered">
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -239,7 +239,7 @@
                     </a>
                   </li>
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -252,7 +252,7 @@
                     </a>
                   </li>
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -265,7 +265,7 @@
                     </a>
                   </li>
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -283,11 +283,11 @@
             <li class="team__item">
               <img src="./images/team/photo-3.jpg" alt="фото маркетолога" width="270" />
               <div class="team__box">
-                <h3 class="team__name">Микола Тарасов</h3>
-                <p lang="en" class="team__occupation">Marketing</p>
-                <ul class="networks__list networks__list--centered">
+                <h3 class="team__title">Микола Тарасов</h3>
+                <p lang="en" class="team__description">Marketing</p>
+                <ul class="networks networks_centered">
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -300,7 +300,7 @@
                     </a>
                   </li>
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -313,7 +313,7 @@
                     </a>
                   </li>
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -326,7 +326,7 @@
                     </a>
                   </li>
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -344,11 +344,11 @@
             <li class="team__item">
               <img src="./images/team/photo-4.jpg" alt="фото дизайнера інтерфейсів" width="270" />
               <div class="team__box">
-                <h3 class="team__name">Михайло Єрмаков</h3>
-                <p lang="en" class="team__occupation">UI Designer</p>
-                <ul class="networks__list networks__list--centered">
+                <h3 class="team__title">Михайло Єрмаков</h3>
+                <p lang="en" class="team__description">UI Designer</p>
+                <ul class="networks networks_centered">
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -361,7 +361,7 @@
                     </a>
                   </li>
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -374,7 +374,7 @@
                     </a>
                   </li>
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -387,7 +387,7 @@
                     </a>
                   </li>
                   <li class="networks__item">
-                    <a href="" class="networks__link networks__link--light"
+                    <a href="" class="networks__link networks__link_light"
                       ><svg
                         class="networks__icon"
                         width="20"
@@ -409,8 +409,8 @@
       <!-- Section "Permanent cusomers" -->
       <section class="section">
         <div class="container">
-          <h2 class="section-title">Постійні клієнти</h2>
-          <ul class="section-list">
+          <h2 class="section__title">Постійні клієнти</h2>
+          <ul class="customers-logo">
             <li class="customers-logo__item">
               <a href="" class="customers-logo__link">
                 <svg
@@ -489,43 +489,41 @@
       </section>
     </main>
 
-    <footer class="footer-section">
-      <div class="container footer-container">
-        <div class="footer-contacts">
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__contacts">
           <a href="./index.html" class="logo footer__logo"
-            >Web<span class="logo--light">Studio</span></a
+            >Web<span class="logo__final-light">Studio</span></a
           >
-          <address class="address-box" id="address-box">
-            <ul>
-              <li class="footer-contacts__item">
+          <address id="address-box">
+            <ul class="correspondence">
+              <li class="correspondence__item">
                 <a
                   href="http://surl.li/dbvrt"
-                  class="footer-contacts__link footer-contacts__link--light"
+                  class="correspondence__link correspondence__link_light"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="footer-contacts__item">
+              <li class="correspondence__item">
                 <a
                   href="mailto:info@devstudio.com"
-                  class="footer-contacts__link footer-contacts__link--dark"
+                  class="correspondence__link correspondence__link_dark"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer-contacts__item">
-                <a
-                  href="tel:+380961111111"
-                  class="footer-contacts__link footer-contacts__link--dark"
+              <li class="correspondence__item">
+                <a href="tel:+380961111111" class="correspondence__link correspondence__link_dark"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="networks">
-          <p class="networks__label">Приєднуйтесь</p>
-          <ul class="networks__list">
+        <div class="footer__networks">
+          <p class="footer__label">Приєднуйтесь</p>
+          <ul class="networks">
             <li class="networks__item">
-              <a href="" class="networks__link networks__link--dark"
+              <a href="" class="networks__link networks__link_dark"
                 ><svg
                   class="networks__icon"
                   width="20"
@@ -538,21 +536,21 @@
               </a>
             </li>
             <li class="networks__item">
-              <a href="" class="networks__link networks__link--dark"
+              <a href="" class="networks__link networks__link_dark"
                 ><svg class="networks__icon" width="20" height="20" lang="en" area-label="twitter">
                   <use href="./images/sprite.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
             <li class="networks__item">
-              <a href="" class="networks__link networks__link--dark"
+              <a href="" class="networks__link networks__link_dark"
                 ><svg class="networks__icon" width="20" height="20" lang="en" area-label="facebook">
                   <use href="./images/sprite.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
             <li class="networks__item">
-              <a href="" class="networks__link networks__link--dark"
+              <a href="" class="networks__link networks__link_dark"
                 ><svg class="networks__icon" width="20" height="20" lang="en" area-label="linkedin">
                   <use href="./images/sprite.svg#icon-linkedin-1"></use>
                 </svg>
@@ -561,8 +559,8 @@
           </ul>
         </div>
 
-        <form class="subscription-form">
-          <div class="subscription__wrapper">
+        <form class="footer__form">
+          <div class="subscription">
             <label for="email" class="subscription__label">Підпишіться на розсилку</label>
             <input
               type="email"
@@ -602,7 +600,7 @@
                 <input
                   type="text"
                   name="user-name"
-                  class="modal__input modal__input--narrow"
+                  class="modal__input modal__input_narrow"
                   required
                   pattern="[a-zA-Zа-яА-яіІїЇєЄ']+"
                   title="Олег"
@@ -620,7 +618,7 @@
                 <input
                   type="tel"
                   name="user-phone"
-                  class="modal__input modal__input--narrow"
+                  class="modal__input modal__input_narrow"
                   required
                   id="user-phone"
                   autocomplete="off"
@@ -636,7 +634,7 @@
                 <input
                   type="email"
                   name="user-email"
-                  class="modal__input modal__input--narrow"
+                  class="modal__input modal__input_narrow"
                   required
                   id="user-email"
                   autocomplete="off"
@@ -650,18 +648,18 @@
               <label for="user-message" class="modal__label">Коментар</label>
               <textarea
                 name="user-message"
-                class="modal__input modal__input--wide"
+                class="modal__input modal__input_wide"
                 placeholder="Введіть текст"
                 id="user-message"
                 autocomplete="off"
               ></textarea>
             </li>
           </ul>
-          <label class="modal__checkbox-wrapper">
+          <label class="modal__checkbox">
             <input
               type="checkbox"
               name="agreement-checkbox"
-              class="modal__checkbox visually-hidden"
+              class="modal__checkbox-input visually-hidden"
               required
             />
             <svg

@@ -1,24 +1,31 @@
-.footer-section {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--dark-grey-bgc);
 }
 
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.footer-contacts {
+.footer__contacts {
   flex-grow: 1;
   margin-right: 70px;
 }
 
-.networks {
+.footer__networks {
   margin-right: 93px;
 }
 
-.networks__label {
+.footer__form {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 12px;
+  width: 570px;
+}
+
+.footer__label {
   margin-bottom: 20px;
 
   font-weight: 700;

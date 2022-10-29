@@ -1,4 +1,4 @@
-.filter__list {
+.filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -31,8 +31,10 @@
   }
 }
 
-.projects__list {
+.projects {
+  display: flex;
   flex-wrap: wrap;
+  column-gap: 30px;
 }
 
 .project__item {
